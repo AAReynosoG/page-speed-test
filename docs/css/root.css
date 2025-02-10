@@ -20,9 +20,9 @@
 * {
    margin: 0;
    padding: 0;
-       -webkit-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
    box-sizing: border-box;
-       -webkit-padding-start: 0px;
+   -webkit-padding-start: 0px;
 }
 
 
@@ -40,12 +40,11 @@ body {
    margin: 0;
    padding: 0;
    width: 100%;
-   /* height: 100%; */
    position: relative;
 }
 
 
-
+zº
 /*
 |   ---------------------------------------------------------------------------------
 |   Html (Not obligatory)
@@ -59,7 +58,6 @@ html{
 }
 
 
-
 /*
 |   ---------------------------------------------------------------------------------
 |   Body
@@ -69,24 +67,8 @@ html{
 |
 */
 body{
-   position: relative;
    overflow-x: hidden !important;
 }
-
-
-
-/*
-|   ---------------------------------------------------------------------------------
-|   Body > div
-|   ---------------------------------------------------------------------------------
-|   
-|   All div tags inside the body do not allow horizontal side scrolling.
-|
-*/
-body>div {
-   /* overflow: hidden !important; */
-}
-
 
 
 /*
@@ -97,6 +79,6 @@ body>div {
 |   All section tags inside the body do not allow horizontal side scrolling.
 |
 */
-body>section {
+body > section {
    overflow: hidden !important;
 }

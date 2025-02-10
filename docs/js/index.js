@@ -13,7 +13,6 @@ const floatingLogo = () => {
 
 //#region EFECTO PARALLAX
 window.onscroll = function () {
-   //console.log("LOG4")
    let position = window.pageYOffset || document.documentElement.scrollTop;
    let img_hamburger_1 = document.getElementById("img_hamburger_1");
    let section_hamburgers = document.getElementById("section_hamburgers");
@@ -37,10 +36,3 @@ document.addEventListener("DOMContentLoaded", function() {
    floatingLogo();
    rollingImages();
 })
-
-
-// Inserta de manera dinamica el link con stylesheet una vez se haya pre-cargado
-var link = document.createElement('link');
-link.rel = 'stylesheet';
-link.href = 'https://site-assets.fontawesome.com/releases/v6.1.0/css/all.css';
-document.head.appendChild(link);
